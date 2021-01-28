@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-size: 62,5%;
+}
+
+body {
+  height: 100vh;
+	width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #150d34;
+}
+
+.form__label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  display: center;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+  color: White;
+}
+
+.form__input {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+	margin: 30;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  background-color: #1f0e63;
+  border: none;
+  width: 90%;
+  display: flex;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+.zagol {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 45px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  width: 55%;
+  display: center;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+.btn {
+	background: #5808fb;
+	text-decoration: none;
+  width: 90%;
+  display: center;
+  text-align: center;
+}
+.jopa {
+  display: center;
+  text-align: center;
+}
+.btn:hover{
+	background: #9929ea;
+	background: #fc0; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    transform: scale(0.99);
+    font-size: 1.4rem;
+}
+.link{
+  background: transparent;
+  padding-top: 10px;
+  padding: 0;
+  color: #f0f0f0;
+
+}
